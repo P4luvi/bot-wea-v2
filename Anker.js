@@ -68,8 +68,8 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:ANKER\n'
-            + 'ORG:Owner DARK BOT;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n'
+            + 'ORG:Owner Maulana abdul ihsan palupi;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6287871537199:+62 878-7153-7199\n'
             + 'END:VCARD'
 
 prefix = "!"
@@ -159,8 +159,8 @@ async function starts() {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FarhanGans = ["081368646011@s.whatsapp.net"] // ubah aja gapapa
-			const farhan = mek.message.conversation
+			const Maullah = ["087871537199@s.whatsapp.net"] // ubah aja gapapa
+			const Abdul = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
 			pushname2 = client.contacts[nameReq] != undefined ? client.contacts[nameReq].vname || client.contacts[nameReq].notify : undefined
